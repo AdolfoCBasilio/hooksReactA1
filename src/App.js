@@ -1,5 +1,8 @@
 import React from 'react';
-import Formulario from './components/Formulario';
+// import Formulario from './components/Formulario';
+// import Crud from './components/Crud';
+import Nuevo from './components/Nuevo';
+
 // import Contador from './components/Contador';
 // import Eventos from './components/Eventos';
 // import Listas from './components/Listas';
@@ -9,14 +12,14 @@ import Formulario from './components/Formulario';
 function App() {
   return (
     <div className="container mt-5">
-      <h1>Hola mundo React</h1>
       {
-      /* <Parrafo/>
+        /* <Parrafo/>
+        <h1>Hola mundo React</h1>
       <Variables/>
       <Eventos/>
       <Contador/> 
       <Listas/>*/
-      <Formulario/>
+      <Nuevo/>
       }
     </div>
   );
